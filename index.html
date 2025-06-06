@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Shariful Islam - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .smooth-scroll {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 smooth-scroll">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-gray-900">Md. Shariful Islam</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="#home" class="text-gray-600 hover:text-blue-600">Home</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600">About</a>
+                    <a href="#experience" class="text-gray-600 hover:text-blue-600">Experience</a>
+                    <a href="#projects" class="text-gray-600 hover:text-blue-600">Projects</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+        <div class="text-center">
+            <img src="YOUR_IMAGE_URL_HERE" alt="Md. Shariful Islam" class="w-48 h-48 rounded-full mx-auto mb-4 object-cover">
+            <h1 class="text-5xl font-bold mb-4">Hi, I'm Md. Shariful Islam</h1>
+            <p class="text-xl mb-6">Backend Engineer | Laravel, Microservices, Docker, Kubernetes</p>
+            <a href="#projects" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-200">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                I'm a passionate backend engineer specializing in microservices, Docker, Kubernetes, and Laravel. With over 4 years of experience at 6amTech, I’ve honed my skills in building scalable, secure, and high-performance systems. My journey began with a curiosity for computers, evolving through university into a deep dive into web technology and backend development, where I found my true calling in creating robust solutions.
+            </p>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-8">Experience</h2>
+            <div class="space-y-6">
+                <!-- 6amTech -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-2">6amTech</h3>
+                    <p class="text-gray-600 mb-2">Senior Software Engineer</p>
+                    <p class="text-gray-500 mb-2">January 2024 - Present (1 year 6 months)</p>
+                    <p class="text-gray-600">Leading backend development with a focus on microservices, Docker, and Kubernetes to build scalable systems.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <p class="text-gray-600 mb-2">Software Engineer (Grade I)</p>
+                    <p class="text-gray-500 mb-2">February 2022 - January 2024 (2 years)</p>
+                    <p class="text-gray-600">Developed and maintained web applications using Laravel, focusing on performance and reliability.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <p class="text-gray-600 mb-2">Junior Software Engineer</p>
+                    <p class="text-gray-500 mb-2">June 2021 - February 2022 (9 months)</p>
+                    <p class="text-gray-600">Contributed to real-world software projects at Mirpur DOHS, enhancing system functionality.</p>
+                </div>
+                <!-- Bangla Puzzle Limited -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-2">Bangla Puzzle Limited</h3>
+                    <p class="text-gray-600 mb-2">Web Developer Intern</p>
+                    <p class="text-gray-500 mb-2">February 2021 - June 2021 (5 months)</p>
+                    <p class="text-gray-600">Worked on real-world software projects, gaining hands-on experience in web development.</p>
+                </div>
+                <!-- AIUB Teaching Assistant -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-2">American International University-Bangladesh (AIUB)</h3>
+                    <p class="text-gray-600 mb-2">Teaching Assistant</p>
+                    <p class="text-gray-500 mb-2">November 2020 - January 2021 (3 months)</p>
+                    <p class="text-gray-600">Supported students with lab issues, taught programming concepts, and ensured fair assessments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-8">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">6Cash</h3>
+                        <p class="text-gray-600 mb-4">A secure digital wallet built with Laravel, featuring robust encryption, OTP authentication, and a scalable admin panel.</p>
+                        <a href="https://6amtech.com/6cash/" target="_blank" class="text-blue-600 hover:underline">View Project</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Demandium</h3>
+                        <p class="text-gray-600 mb-4">An on-demand service platform with Laravel backend, offering real-time booking and payment gateways.</p>
+                        <a href="https://demandium.app/" target="_blank" class="text-blue-600 hover:underline">View Project</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">eFood</h3>
+                        <p class="text-gray-600 mb-4">A food delivery system with Laravel, featuring real-time tracking and a multi-vendor ecosystem.</p>
+                        <a href="https://6amtech.com/efood/" target="_blank" class="text-blue-600 hover:underline">View Project</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Content Management System (CMS)</h3>
+                        <p class="text-gray-600 mb-4">A fully custom CMS developed from scratch to manage content efficiently.</p>
+                        <a href="#" class="text-blue-600 hover:underline">View Project</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Custom Management Software</h3>
+                        <p class="text-gray-600 mb-4">A tailored management solution built from scratch to streamline operations.</p>
+                        <a href="#" class="text-blue-600 hover:underline">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-8">Get in Touch</h2>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
+                Interested in collaborating? Reach out via email or connect with me on professional networks.
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="mailto:imdsharful171@gmail.com" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700">Email Me</a>
+                <a href="https://www.linkedin.com/in/islam-shanful" target="_blank" class="text-gray-600 hover:text-blue-600">LinkedIn</a>
+                <a href="https://github.com/islam-shaniful" target="_blank" class="text-gray-600 hover:text-blue-600">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>© 2025 Md. Shariful Islam. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
